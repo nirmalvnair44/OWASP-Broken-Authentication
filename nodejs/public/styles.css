@@ -1,0 +1,39 @@
+body{
+    background-color: lavender;
+}
+nav{
+    background-color: blueviolet;
+    color: peachpuff;
+    padding: 25px 45px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 175px;
+}
+nav li a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+h1{
+    color: teal;
+    padding: 25px 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+}
+.container{
+    display: block;
+    margin:2px 0 20px 10px;
+    white-space: pre-line;
+}
