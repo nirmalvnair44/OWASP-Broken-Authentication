@@ -3,6 +3,7 @@ const router = express.Router();
 
 router.get('/', (req,res) => {
     res.render('index');
+    res.clearCookie('authcookie');
 });
 
 router.get('/register', (req,res) => {
@@ -11,6 +12,10 @@ router.get('/register', (req,res) => {
 
 router.get('/login', (req,res) => {
     res.render('login');
+})
+
+router.get('/loggedin', (req,res) => {
+    res.render('loggedin');
 })
 
 module.exports = router;
